@@ -9,6 +9,8 @@ import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/articles.css';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 const styles = {
   ulStyle: {
@@ -27,7 +29,6 @@ const styles = {
   },
   itemStyle: {
     marginBottom: 10,
-    'z-index': 0,
   },
 };
 
@@ -55,13 +56,13 @@ function Articles(props) {
             <Container>
               <Timeline
                 lineColor={theme.timelineLineColor}
-                animate={false}
+                className="timeline"
               >
                 {data.map((item) => (
-                  <Fade className="fade" ssrFadeout>
+                  <Fade className="fade">
                     <TimelineItem className="timeline-item"
-                      key={item.title + item.dateText}
-                      dateText={item.dateText}
+                      key={item.title + item.date}
+                      dateText={item.date}
                       dateInnerStyle={{ background: theme.accentColor }}
                       style={styles.itemStyle}
                       bodyContainerStyle={{ color: theme.color }}
@@ -102,6 +103,56 @@ function Articles(props) {
                   </Fade>
                 ))}
               </Timeline>
+              <VerticalTimeline
+                lineColor={theme.timelineLineColor}
+                >
+                  {data.map((item) => (
+                  <Fade className="fade">
+                    <VerticalTimelineElement className="vertical-timeline-element"
+                      style={styles.itemStyle}
+                      contentStyle={{ background: theme.background }}
+                      date={item.date}
+                    >
+                    <h2 className="item-title">
+                        {item.title}
+                      </h2>
+                      <div style={styles.subtitleContainerStyle}>
+                      <a className="link" href={item.href} target="_blank" rel="noreferrer">
+                        <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
+                          {item.subtitle}
+                        </h4>
+                        </a>
+                        {item.workType && (
+                        <h5 style={styles.inlineChild}>
+                    &nbsp;·
+                          {' '}
+                          {item.workType}
+                        </h5>
+                        )}
+                      </div>
+                      <ul style={styles.ulStyle}>
+                        {item.workDescription.map((point) => (
+                          <div key={point}>
+                            <li>
+                              <ReactMarkdown
+                                children={point}
+                                components={{
+                                  p: 'span',
+                                }}
+                              />
+                            </li>
+                            <br />
+                          </div>
+                        ))}
+                      </ul>
+                    </VerticalTimelineElement>
+                  </Fade>
+                ))}
+                <VerticalTimelineElement
+                >
+
+                </VerticalTimelineElement>
+              </VerticalTimeline>
             </Container>
           </div>
         ) : <FallbackSpinner /> }
