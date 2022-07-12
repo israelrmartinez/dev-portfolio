@@ -1,20 +1,31 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { Chrono } from 'react-chrono';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Button } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
 import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
+import GalleryCard from './cards/GalleryCard';
 import '../css/gallery.css';
+
+const styles = {
+  containerStyle: {
+    marginBottom: 25,
+  },
+  showMoreStyle: {
+    margin: 25,
+  },
+};
 
 function Gallery(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
   const [width, setWidth] = useState('50vw');
-  const [mode, setMode] = useState('VERTICAL_ALTERNATING');
+  const [mode, setMode] = useState('HORIZONTAL');
+  const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
     fetch(endpoints.gallery, {
@@ -39,6 +50,8 @@ function Gallery(props) {
     }
   }, []);
 
+  const numberOfItems = showMore && data ? data.length : 6;
+
   return (
     <>
       <Header title={header} />
@@ -47,9 +60,8 @@ function Gallery(props) {
           <div style={{ width }} className="section-content-container">
             <Container>
               <Chrono
-                hideControls
                 allowDynamicUpdate
-                useReadMore={false}
+                // useReadMore={true}
                 items={data.gallery}
                 cardHeight={250}
                 mode={mode}
@@ -71,6 +83,25 @@ function Gallery(props) {
                   ) : null))}
                 </div>
               </Chrono>
+
+              <Row xs={1} sm={1} md={2} lg={3} className="g-4">
+                {data.gallery?.slice(0, numberOfItems).map((gallery) => (
+                  <Fade key={gallery.title}>
+                    <GalleryCard gallery={gallery} />
+                  </Fade>
+                ))}
+              </Row>
+
+              {!showMore
+                && (
+                <Button
+                  style={styles.showMoreStyle}
+                  variant={theme.bsSecondaryVariant}
+                  onClick={() => setShowMore(true)}
+                >
+                  show more
+                </Button>
+                )}
             </Container>
           </div>
         </Fade>

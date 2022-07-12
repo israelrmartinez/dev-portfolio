@@ -18,8 +18,16 @@ module.exports = {
     'react',
   ],
   rules: {
-    'prefer-template': 0,
-    'react/no-children-prop': [0],
-    'linebreak-style': 0
+    // 'prefer-template': 0,
+    // 'react/no-children-prop': [0],
+    // 'linebreak-style': 0
   },
+  use: [{
+    loader: require.resolve('eslint-loader'),
+    options: {
+        formatter: eslintFormatter,
+        eslintPath: require.resolve('eslint'),
+        emitWarning: true
+    },
+}],
 };

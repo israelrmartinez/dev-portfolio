@@ -1,31 +1,45 @@
 {
     "gallery":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
+            "title": "June 6, 2022",
+            "cardTitle": "Stephanie's Photoshoot",
+            "cardSubtitle":"UW-Seattle",
             "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "href": "https://drive.google.com/drive/folders/1CB6YX-tnbdDZPPgeLIosVBUNH5RUUfRe",
+            "images" : [
+                "images/education/lorem-ipsum.png"
+            ]
+        },
+        {
+            "title": "August 27, 2020",
+            "cardTitle": "Cece's Photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "cardDetailedText": "CGPA - 9.5",
+            "href": "",
+            "images" : [
+                "images/education/lorem-ipsum.png"
+            ]
+        },
+        {
+            "title": "September 19, 2018",
+            "cardTitle": "B's Photoshoot",
+            "cardSubtitle":"ABC School, City",
+            "cardDetailedText": "Marks - 95%",
+            "href": ""
+        },
+        {
+            "title": "",
+            "cardTitle": "High School",
+            "cardSubtitle":"ABC School, City",
+            "cardDetailedText": "Marks - 95%",
+            "href": ""
         },
         {
             "title": "Apr 20XX",
             "cardTitle": "High School",
             "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
-        },
-        {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
-        },
-        {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "cardDetailedText": "Marks - 95%",
+            "href": ""
         }
     ]
 }
