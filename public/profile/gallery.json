@@ -1,5 +1,5 @@
 {
-    "education":[
+    "gallery":[
         {
             "title": "Jun 20XX - Jun 20YY",
             "cardTitle": "B.Tech, Computer Science",
@@ -8,6 +8,18 @@
             "icon" : {
                 "src": "images/education/lorem-ipsum.png"
             }
+        },
+        {
+            "title": "Apr 20XX",
+            "cardTitle": "High School",
+            "cardSubtitle":"ABC School, City",
+            "cardDetailedText": "Marks - 95%"
+        },
+        {
+            "title": "Apr 20XX",
+            "cardTitle": "High School",
+            "cardSubtitle":"ABC School, City",
+            "cardDetailedText": "Marks - 95%"
         },
         {
             "title": "Apr 20XX",

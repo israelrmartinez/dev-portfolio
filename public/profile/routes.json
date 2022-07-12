@@ -11,8 +11,8 @@
             "headerTitle": "Skills"
         },
         {
-            "component": "Education",
-            "path": "/education",
+            "component": "Gallery",
+            "path": "/gallery",
             "headerTitle": "Gallery"
         },
         {

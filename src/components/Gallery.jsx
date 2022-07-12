@@ -7,9 +7,9 @@ import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import Header from './Header';
 import FallbackSpinner from './FallbackSpinner';
-import '../css/education.css';
+import '../css/gallery.css';
 
-function Education(props) {
+function Gallery(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
@@ -17,7 +17,7 @@ function Education(props) {
   const [mode, setMode] = useState('VERTICAL_ALTERNATING');
 
   useEffect(() => {
-    fetch(endpoints.education, {
+    fetch(endpoints.gallery, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -50,7 +50,7 @@ function Education(props) {
                 hideControls
                 allowDynamicUpdate
                 useReadMore={false}
-                items={data.education}
+                items={data.gallery}
                 cardHeight={250}
                 mode={mode}
                 theme={{
@@ -62,11 +62,11 @@ function Education(props) {
                 }}
               >
                 <div className="chrono-icons">
-                  {data.education.map((education) => (education.icon ? (
+                  {data.gallery.map((shoot) => (shoot.icon ? (
                     <img
-                      key={education.icon.src}
-                      src={education.icon.src}
-                      alt={education.icon.alt}
+                      key={shoot.icon.src}
+                      src={shoot.icon.src}
+                      alt={shoot.icon.alt}
                     />
                   ) : null))}
                 </div>
@@ -79,8 +79,8 @@ function Education(props) {
   );
 }
 
-Education.propTypes = {
+Gallery.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Education;
+export default Gallery;
