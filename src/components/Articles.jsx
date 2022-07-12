@@ -8,7 +8,7 @@ import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
-import '../css/experience.css';
+import '../css/articles.css';
 
 const styles = {
   ulStyle: {
@@ -36,11 +36,11 @@ function Articles(props) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.experiences, {
+    fetch(endpoints.articles, {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res.experiences))
+      .then((res) => setData(res.articles))
       .catch((err) => err);
   }, []);
 
