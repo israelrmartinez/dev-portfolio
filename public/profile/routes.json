@@ -16,8 +16,8 @@
             "headerTitle": "Gallery"
         },
         {
-            "component": "Experience",
-            "path": "/experience",
+            "component": "Articles",
+            "path": "/articles",
             "headerTitle": "Articles"
         },
         {
