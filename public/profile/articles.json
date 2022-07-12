@@ -2,11 +2,13 @@
     "articles": [
         {
             "title": "Music review: Florence + The Machine reaches for another level of boldness",
-            "subtitle": "'High as Hope' by Florence + The Machine Album Review",
+            "subtitle": "Yakima Herald-Republic",
             "href": "https://www.yakimaherald.com/unleashed/reviews/music-review-florence-the-machine-reaches-for-another-level-of/article_0c925770-a7ee-11e8-a7da-4fde424ed238.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/5/97/597ee4a4-a7ee-11e8-bff8-db090d28ebcd/5b8088ed687dc.image.jpg?resize=990%2C557",
+            "alt": "Florence Welch",
             "workDescription": [
                 "High as Hope' by Florence + The Machine Album Review",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Analysis of songs and production"
             ],
             "date": "Friday, August 24, 2018"
         },
@@ -14,6 +16,7 @@
             "title": "Software Engineer",
             "subtitle": "XYZ Ltd",
             "href": "https://www.yakimaherald.com/unleashed/reviews/music-review-florence-the-machine-reaches-for-another-level-of/article_0c925770-a7ee-11e8-a7da-4fde424ed238.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/5/97/597ee4a4-a7ee-11e8-bff8-db090d28ebcd/5b8088ed687dc.image.jpg?resize=990%2C557",
             "workType": "Internship",
             "workDescription": [
                 "Worked on abc."
@@ -24,6 +27,7 @@
             "title": "App Developer",
             "subtitle": "ABC Pvt Ltd",
             "href": "https://www.yakimaherald.com/unleashed/reviews/music-review-florence-the-machine-reaches-for-another-level-of/article_0c925770-a7ee-11e8-a7da-4fde424ed238.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/5/97/597ee4a4-a7ee-11e8-bff8-db090d28ebcd/5b8088ed687dc.image.jpg?resize=990%2C557",
             "workType": "Freelance",
             "workDescription": [
                 "Developed the official apps for the startup for both Android and iOS using hybrid framework.",

@@ -30,6 +30,10 @@ const styles = {
   itemStyle: {
     marginBottom: 10,
   },
+  imageStyle: {
+    width: "100%",
+    height: "100%",
+  },
 };
 
 function Articles(props) {
@@ -54,55 +58,6 @@ function Articles(props) {
         ? (
           <div className="section-content-container">
             <Container>
-              <Timeline
-                lineColor={theme.timelineLineColor}
-                className="timeline"
-              >
-                {data.map((item) => (
-                  <Fade className="fade">
-                    <TimelineItem className="timeline-item"
-                      key={item.title + item.date}
-                      dateText={item.date}
-                      dateInnerStyle={{ background: theme.accentColor }}
-                      style={styles.itemStyle}
-                      bodyContainerStyle={{ color: theme.color }}
-                    >
-                      <h2 className="item-title">
-                        {item.title}
-                      </h2>
-                      <div style={styles.subtitleContainerStyle}>
-                      <a className="link" href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjNzbu-wfL4AhXeIzQIHXlHAzoQPAgI" target="_blank" rel="noreferrer">
-                        <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
-                          {item.subtitle}
-                        </h4>
-                        </a>
-                        {item.workType && (
-                        <h5 style={styles.inlineChild}>
-                    &nbsp;·
-                          {' '}
-                          {item.workType}
-                        </h5>
-                        )}
-                      </div>
-                      <ul style={styles.ulStyle}>
-                        {item.workDescription.map((point) => (
-                          <div key={point}>
-                            <li>
-                              <ReactMarkdown
-                                children={point}
-                                components={{
-                                  p: 'span',
-                                }}
-                              />
-                            </li>
-                            <br />
-                          </div>
-                        ))}
-                      </ul>
-                    </TimelineItem>
-                  </Fade>
-                ))}
-              </Timeline>
               <VerticalTimeline
                 lineColor={theme.timelineLineColor}
                 >
@@ -113,6 +68,7 @@ function Articles(props) {
                       contentStyle={{ background: theme.background }}
                       date={item.date}
                     >
+                    <img src={item.img} style={styles.imageStyle}/>
                     <h2 className="item-title">
                         {item.title}
                       </h2>
