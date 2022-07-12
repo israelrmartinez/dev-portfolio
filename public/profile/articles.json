@@ -2,38 +2,300 @@
     "articles": [
         {
             "title": "Music review: Florence + The Machine reaches for another level of boldness",
-            "subtitle": "Yakima Herald-Republic",
             "href": "https://www.yakimaherald.com/unleashed/reviews/music-review-florence-the-machine-reaches-for-another-level-of/article_0c925770-a7ee-11e8-a7da-4fde424ed238.html",
             "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/5/97/597ee4a4-a7ee-11e8-bff8-db090d28ebcd/5b8088ed687dc.image.jpg?resize=990%2C557",
             "alt": "Florence Welch",
             "workDescription": [
                 "High as Hope' by Florence + The Machine Album Review",
-                "Analysis of songs and production"
+                "Analyzing songs and production"
             ],
             "date": "Friday, August 24, 2018"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "href": "https://www.yakimaherald.com/unleashed/reviews/music-review-florence-the-machine-reaches-for-another-level-of/article_0c925770-a7ee-11e8-a7da-4fde424ed238.html",
-            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/5/97/597ee4a4-a7ee-11e8-bff8-db090d28ebcd/5b8088ed687dc.image.jpg?resize=990%2C557",
-            "workType": "Internship",
+            "title": "What They're Saying: August 2018 (Katherine Lopez)",
+            "href": "https://www.yakimaherald.com/unleashed/news/what-they-re-saying-august/article_60543114-a7ec-11e8-93e2-abdcd7d23626.html",
+            "img": "images/articles/katherine2.jpg",
+            "alt": "Senior Portrait of Katherine Lopez",
             "workDescription": [
-                "Worked on abc."
+                "Quote from Katherine Lopez, 2018 graduate of Wapato High Shool",
+                "Thoughts about transitioning into college"
             ],
-            "date": "01/20XX – 05/20XX"
+            "date": "Friday, August 24, 2018"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "href": "https://www.yakimaherald.com/unleashed/reviews/music-review-florence-the-machine-reaches-for-another-level-of/article_0c925770-a7ee-11e8-a7da-4fde424ed238.html",
-            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/5/97/597ee4a4-a7ee-11e8-bff8-db090d28ebcd/5b8088ed687dc.image.jpg?resize=990%2C557",
-            "workType": "Freelance",
+            "title": "Wapato graduate’s dream coming true as she heads for Georgetown",
+            "href": "https://www.yakimaherald.com/unleashed/wapato-graduate-s-dream-coming-true-as-she-heads-for/article_fe564e9c-8ca3-11e8-8bd8-03f94932e7d7.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/3/c4/3c4ca832-8a0f-11e8-81a3-07a42137da1f/5b4e6b0b8a7c6.image.jpg?resize=990%2C660",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Joselin Rosales College Interview",
+                "Caption: Wapato High School class of 2018 salutatorian Joselin Rosales is moving on to the other Washington -- in D.C. -- to attend Georgetown University."
             ],
-            "date": "09/20XX – 01/20YY"
+            "date": "Friday, July 20, 2018"
+        },
+        {
+            "title": "High school transformations shows life is what you make of it",
+            "href": "https://www.yakimaherald.com/unleashed/columnists/high-school-transformations-shows-life-is-what-you-make-of/article_80a74a78-7763-11e8-9812-d3cf0e7d49d1.html",
+            "img": "images/articles/me.jpg",
+            "alt": "Senior Portrait of Israel Martinez",
+            "workDescription": [
+                "Senior farewell column",
+                "Photo source: taken by Alyssa Martinez"
+            ],
+            "date": "Saturday, June 23, 2018"
+        },
+        {
+            "title": "'Mr. Teen Wapato' a worthy mission to help kids",
+            "href": "http://www.yakimaherald.com/unleashed/news/mr-teen-wapato-a-worthy-mission-to-help-kids/article_c13fd206-6068-11e8-b828-5f9b24b80fc0.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/a/42/a421f1ce-5ed6-11e8-b03f-97808243e86e/5b05e7bc6f2d3.image.jpg?resize=667%2C500",
+            "alt": "Senior Portrait of Katherine Lopez",
+            "workDescription": [
+                "Mr. Teen Wapato column",
+                "Caption: The Mr. Teen Wapato candidates holding their 'Dash for Cash' buckets right before the Mr. Teen Wapato pageant on March 8, 2018. Front row, from left: Roberto Fuentes, Israel Martinez, Sergio Mejia, Jose Basilio and Miguel Vaca. Back row, from left: Daylen Gasseling, Ricardo Rios, Alex Vaca and Cesar Brizuela."
+            ],
+            "date": "Friday, May 25, 2018"
+        },
+        {
+            "title": "Artistic visuals, choreography welcome additions at recent Lorde concert",
+            "href": "https://www.yakimaherald.com/unleashed/reviews/artistic-visuals-choreography-welcome-additions-at-recent-lorde-concert/article_398f0c88-45f5-11e8-8723-c37be4cbe40c.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/b/20/b20e8c9a-4340-11e8-ad14-63ec4b3ae77f/5ad79fc1de949.image.jpg?resize=990%2C799",
+            "alt": "Lorder performing onstage",
+            "workDescription": [
+                "Lorde concert review",
+                "Caption: Lorde takes the stage at the Key Arena on March 9, 2018, in Seattle, Wash. as part of her 70-show Melodrama World Tour. "
+            ],
+            "date": "Saturday, April 21, 2018"
+        },
+        {
+            "title": "Villavert shakes off jitters in Wapato performance",
+            "href": "https://www.yakimaherald.com/unleashed/columnists/villavert-shakes-off-jitters-in-wapato-performance/article_912d370a-02ff-11e8-a5e2-8764acdec8a3.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/2/b5/2b5d30e8-01ff-11e8-b067-4b8c2d0974bc/5a6a2489101eb.image.jpg?resize=308%2C500",
+            "alt": "Rogie-Ann performing onstage",
+            "workDescription": [
+                "Rogie-Ann Villavert talent show interview",
+                "Caption: Rogie-Ann Villavert, the opening act of the show, performs an acoustic cover of 'I'm Not the Only One' by Sam Smith at the Wapato High School Talent Show on Dec. 8, 2017."
+            ],
+            "date": "Saturday, January 27, 2018"
+        },
+        {
+            "title": "Tip for 2018: Make plans to start studying earlier",
+            "href": "https://www.yakimaherald.com/unleashed/columnists/tip-for-make-plans-to-start-studying-earlier/article_0ddcd54e-e6db-11e7-a687-5732b15ef4e2.html",
+            "img": "images/articles/2017.jpg",
+            "alt": "2017 image from google",
+            "workDescription": [
+                "2017 year review",
+                "Photo source: Google images"
+            ],
+            "date": "Saturday, December 23, 2017"
+        },
+        {
+            "title": "Lana Del Rey breaks new ground on album",
+            "href": "http://www.yakimaherald.com/unleashed/reviews/lana-del-rey-breaks-new-ground-on-album/article_b69c969e-cfe1-11e7-955a-03d473daa789.html",
+            "img": "images/articles/lana.jpg",
+            "alt": "'Lust for Life' album cover",
+            "workDescription": [
+                "'Lust For Life' by Lana Del Rey album review",
+                "Photo source: Google images"
+            ],
+            "date": "Saturday, November 25, 2017"
+        },
+        {
+            "title": "Advice for new juniors: Don't fall behind",
+            "href": "https://www.yakimaherald.com/unleashed/columnists/advice-for-new-juniors-don-t-fall-behind/article_9d9cf25c-7f1d-11e7-9880-87aa2ce91056.html",
+            "img": "images/articles/melissa.jpg",
+            "alt": "Melissa Guadarrama",
+            "workDescription": [
+                "Junior Melissa Guadarrama interview",
+                "Photo source: taken by Israel Martinez"
+            ],
+            "date": "Friday, August 11, 2017"
+        },
+        {
+            "title": "A pair of surprise prom crowns in Wapato",
+            "href": "http://www.yakimaherald.com/unleashed/columnists/a-pair-of-surprise-prom-crowns-in-wapato/article_f3b6f32e-531a-11e7-a715-5fd4a7f7a3d0.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/4/20/4205cd6e-4724-11e7-a9f4-fb6c5387fff5/5930a6df064da.image.jpg?resize=750%2C500",
+            "alt": "Katy Palma and Gerome Dosono doing the prom royalty slow dance",
+            "workDescription": [
+                "Wapato Prom King and Queen interview",
+                "Caption: Prom queen Katy Palma, left, and prom king Gerome Dosono participating in the traditional slow dance after their induction at the Wapato High School prom at Ahtanum Youth Barn on Saturday, May 6, 2017."
+            ],
+            "date": "Friday, June 16, 2017"
+        },
+        {
+            "title": "Rapper wins Mr. Teen Wapato pageant",
+            "href": "http://www.yakimaherald.com/unleashed/meet_the_staff/israel_martinez/rapper-wins-mr-teen-wapato-pageant/article_32d28fb8-2649-11e7-a542-8f7f43cf15bd.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/f/20/f200e78a-25e6-11e7-9b96-3335be34ea5c/58f8e29d17d3e.image.jpg?resize=612%2C612",
+            "alt": "Albert Squeochs",
+            "workDescription": [
+                "Mr. Teen Wapato interview",
+                "Caption: Wapato High School senior Albert Squeochs holds his roses and smiles after being crowned Mr. Teen Wapato at the Mr. Teen Wapato 2017 pageant on February 16, 2017, at Wapato High School."
+            ],
+            "date": "Saturday, April 22, 2017"
+        },
+        {
+            "title": "Challenging Yourself: AP classes come with a little less pressure",
+            "href": "http://www.yakimaherald.com/unleashed/columnists/challenging-yourself-ap-classes-come-with-a-little-less-pressure/article_669cf10c-1be6-11e7-b450-831816876aac.html",
+            "img": "images/articles/books.jpg",
+            "alt": "Stack of school books",
+            "workDescription": [
+                "AP classes v.s. Running Start column",
+                "Photo source: Google images"
+            ],
+            "date": "Friday, April 7, 2017"
+        },
+        {
+            "title": "Music Review: Kiyoko concert one to remember",
+            "href": "http://www.yakimaherald.com/unleashed/reviews/music-review-kiyoko-concert-one-to-remember/article_13e6fab6-1bf0-11e7-94af-93275a4ae822.html",
+            "img": "images/articles/hayley.jpeg",
+            "alt": "Hayley Kiyoko performing",
+            "workDescription": [
+                "Hayley Kiyoko concert review",
+                "Photo source: taken by Israel Martinez"
+            ],
+            "date": "Friday, April 7, 2017"
+        },
+        {
+            "title": "Bidding goodbye to the band a bittersweet experience for Wapato senior",
+            "href": "http://www.yakimaherald.com/unleashed/columnists/bidding-goodbye-to-the-band-a-bittersweet-experience-for-wapato/article_47ccc750-fb1d-11e6-946f-0b1f5fcacdee.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/0/49/049a4f32-f976-11e6-9adb-1f1efc20dbaf/58ae534c05199.image.jpg?resize=990%2C660",
+            "alt": "Emily Baluca directing the band",
+            "workDescription": [
+                "Wapato Band Director interview",
+                "Caption: Senior Emily Baluca directs the Wapato Band at their last home basketball game of the season at Wapato High School on Jan. 28, 2017."
+            ],
+            "date": "Friday, February 24, 2017"
+        },
+        {
+            "title": "Driving opens up new vistas when you're used to asking and waiting for rides",
+            "href": "http://www.yakimaherald.com/unleashed/columnists/driving-opens-up-new-vistas-when-you-re-used-to/article_af58c27e-f029-11e6-8ebf-8ba76040af57.html",
+            "img": "https://i.pinimg.com/1200x/48/26/35/4826352a406890c99d6f6146ad2ee2b8.jpg",
+            "alt": "",
+            "workDescription": [
+                "Driver's license column",
+                "Photo source: Google images"
+            ],
+            "date": "Friday, February 10, 2017"
+        },
+        {
+            "title": "Lady Gaga strikes intimate tone with 'Joanne'",
+            "href": "https://www.yakimaherald.com/unleashed/lady-gaga-strikes-intimate-tone-with-joanne/article_61b8a5a8-b9d2-11e6-b3e7-637327a3437d.html",
+            "img": "https://cdn.vox-cdn.com/thumbor/PMxUuTY-lVxZDpnil4lwR1rJ2Gk=/0x0:3000x2638/1200x800/filters:focal(1428x429:1908x909)/cdn.vox-cdn.com/uploads/chorus_image/image/53096747/629543638.0.jpg",
+            "alt": "",
+            "workDescription": [
+                "'Joanne' by Lady Gaga album review",
+                "Caption: Lady Gaga performing at the 2016 Victoria’s Secret Fashion Show in Paris, France."
+            ],
+            "date": "Saturday, December 3, 2016"
+        },
+        {
+            "title": "Israel Martinez (11th Grade Unleashed Bio)",
+            "href": "https://www.yakimaherald.com/unleashed/meet_the_staff/israel_martinez/israel-martinez/article_1d08b2ea-9241-11e5-80cc-0fe3704151c0.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/7/95/795c42b4-7c33-11e6-b13b-1bd89815e7a9/57dc2c9041f6c.image.jpg?resize=333%2C500",
+            "alt": "Israel Martinez",
+            "workDescription": [
+                "11th grade bio",
+                "Photo Source: taken by Gordon King"
+            ],
+            "date": ""
+        },
+        {
+            "title": "Yearbook adviser helps students learn varied skills",
+            "href": "https://www.yakimaherald.com/unleashed/yearbook-adviser-helps-students-learn-varied-skills/article_628c128a-2ab7-11e6-9949-f7c4b3911812.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/c/a1/ca1355e8-25e5-11e6-b583-cb4a41fc0ee6/574b6182e71c3.image.jpg?resize=990%2C612",
+            "alt": "Yearbook Adviser Cynthia Jorgensen-Johnson",
+            "workDescription": [
+                "Yearbook Adviser interview",
+                "Caption: Wapato's High School's yearbook advisor Cynthia Jorgensen-Johnson has been a yearbook advisor for 10 years. As a teacher at Selah High School she advised the yearbook staff there for eight years. She began teaching and advising the yearbook staff at Wapato High School two years ago. Her goal each year is to make a better book than the year before."
+            ],
+            "date": "Saturday, June 4, 2016"
+        },
+        {
+            "title": "Event shows the exciting side of engineering",
+            "href": "https://www.yakimaherald.com/unleashed/event-shows-the-exciting-side-of-engineering/article_82724654-2ab3-11e6-8982-33d586434424.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/9/6a/96a31da0-2ac3-11e6-86b4-33dfabf7c12a/57538b9d8d1c0.image.jpg?resize=376%2C500",
+            "alt": "Tomas Gonzales and Jaydin Howe",
+            "workDescription": [
+                "UW Engineering Days field trip",
+                "Caption: Wapato High School juniors Tomas Gonzales, left, and Jaydin Howe observe a replica of the rubber ball that was frozen to -200 degrees and broken during the 'Frozen Ball' exhibit at the University of Washington Engineering Discovery Days event April 23, 2016 in Seattle, Wash."
+            ],
+            "date": "Saturday, June 4, 2016"
+        },
+        {
+            "title": "Wapato students share stage with Bernie Sanders",
+            "href": "http://www.yakimaherald.com/unleashed/meet_the_staff/israel_martinez/wapato-students-share-stage-with-bernie-sanders/article_d8ea23c2-09e7-11e6-a6ce-cb05ed0a1570.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/5/a7/5a7e9b92-080e-11e6-8302-67cf1690ca6e/571950aa3863d.image.jpg?resize=990%2C660",
+            "alt": "Wapato students on stage at the March 24 Bernie Sanders rally in Yakima",
+            "workDescription": [
+                "Wapato students and Bernie Sanders",
+                "Caption: Wapato High School ninth-grader Deshawn Tahkeal speaks at the March 24 Bernie Sanders rally in Yakima. Mathew Tomaskin, a 1982 Wapato graduate, is in the red vest. He helped arrange speakers and dancers from the Yakama Nation."
+            ],
+            "date": "Saturday, April 23, 2016"
+        },
+        {
+            "title": "No tears during Cry Baby show",
+            "href": "https://www.yakimaherald.com/unleashed/meet_the_staff/israel_martinez/no-tears-during-cry-baby-show/article_dd2dc048-f3ac-11e5-9429-673573d4252c.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/0/3c/03cf77aa-f3ad-11e5-bd02-db211a8f9519/56f71f8bd72e4.image.jpg?resize=990%2C660",
+            "alt": "Melanie Martinez performing.",
+            "workDescription": [
+                "Melanie Martinez 'Cry Baby' concert review",
+                "Caption: Melanie Martinez performs at Perez Hilton's One Night in Austin at the Austin Music Hall at SXSW on Saturday, March 21, 2015, in Austin, Texas."
+            ],
+            "date": "Saturday, March 26, 2016"
+        },
+        {
+            "title": "Five Grammy nominations attest to Florence Welch's comeback",
+            "href": "https://www.yakimaherald.com/unleashed/five-grammy-nominations-attest-to-florence-welch-s-comeback/article_5f6a9c42-d2e8-11e5-bcd2-9b527afe2bb0.html",
+            "img": "images/articles/florence.jpg",
+            "alt": "Florence Welch",
+            "workDescription": [
+                "Florence + The Machine Grammy nominations",
+                "Photo Source: taken by Brian Rasic/WireImage"
+            ],
+            "date": "Saturday, February 13, 2016"
+        },
+        {
+            "title": "Wapato Bean Feed continues to help cancer patients",
+            "href": "https://www.yakimaherald.com/unleashed/meet_the_staff/israel_martinez/wapato-bean-feed-continues-to-help-cancer-patients/article_a164ce90-b1de-11e5-8d48-aba79d6ebc31.html",
+            "img": "images/articles/beanfeed.jpg",
+            "alt": "beans",
+            "workDescription": [
+                "The Bean Feed overview",
+                "Discussion of a local food fundraiser and its history"
+            ],
+            "date": "Saturday, January 2, 2016"
+        },
+        {
+            "title": "Toy Stories: Nothing compares to Spider-Man",
+            "href": "https://www.yakimaherald.com/unleashed/columnists/toy-stories-nothing-compares-to-spider-man/article_c18da4b4-a6dd-11e5-8538-b73c9ac88159.html",
+            "img": "images/articles/spiderman.jpg",
+            "alt": "Spider-Man toy found on google images",
+            "workDescription": [
+                "The Spider-Man toy",
+                "Review of childhood toys in the spirit of the Christmas season",
+                "Photo source: Google images"
+            ],
+            "date": "Saturday, December 19, 2015"
+        },
+        {
+            "title": "Sitdown with Vinyl Theatre lead singer adds depth to band’s music",
+            "href": "https://www.yakimaherald.com/unleashed/news/sitdown-with-vinyl-theatre-lead-singer-adds-depth-to-band/article_eb7054c4-9bee-11e5-9def-3b753a250de9.html",
+            "img": "images/articles/vinylTheatre.jpg",
+            "alt": "Promotional photo of the band from vinyltheatre.com",
+            "workDescription": [
+                "Vinyl Theatre interview",
+                "Photo source: vinyltheatre.com"
+            ],
+            "date": "Tuesday, December 5, 2015"
+        },
+        {
+            "title": "After a long wait and a long line, Marina and The Diamonds sparkle",
+            "href": "https://www.yakimaherald.com/unleashed/reviews/after-a-long-wait-and-a-long-line-marina-and/article_296fcf76-90ea-11e5-8822-0bd1692aeddd.html",
+            "img": "https://bloximages.newyork1.vip.townnews.com/yakimaherald.com/content/tncms/assets/v3/editorial/3/9e/39ef7764-8caf-11e5-8f88-f3909b4133f6/564a54f86030e.image.jpg?resize=990%2C743",
+            "alt": "Marina Diamandis sings at the Roseland Theater in Portland, OR on October 23, 2015",
+            "workDescription": [
+                "Marina and The Diamonds concert review",
+                "Caption: Marina Diamandis sings about past, present, and future in her song 'Immortal' from her 3rd LP FROOT at the Roseland Theater in Portland, OR on October 23, 2015"
+            ],
+            "date": "Saturday, November 21, 2015"
         }
     ]
 }

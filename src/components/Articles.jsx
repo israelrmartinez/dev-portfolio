@@ -68,23 +68,21 @@ function Articles(props) {
                       contentStyle={{ background: theme.background }}
                       date={item.date}
                     >
-                    <img src={item.img} style={styles.imageStyle}/>
+                    <img src={item.img} alt={item.alt} style={styles.imageStyle}/>
                     <h2 className="item-title">
                         {item.title}
                       </h2>
                       <div style={styles.subtitleContainerStyle}>
                       <a className="link" href={item.href} target="_blank" rel="noreferrer">
                         <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
-                          {item.subtitle}
+                          Yakima Herald-Republic
                         </h4>
                         </a>
-                        {item.workType && (
                         <h5 style={styles.inlineChild}>
                     &nbsp;·
                           {' '}
-                          {item.workType}
+                          Unleashed
                         </h5>
-                        )}
                       </div>
                       <ul style={styles.ulStyle}>
                         {item.workDescription.map((point) => (
@@ -104,10 +102,6 @@ function Articles(props) {
                     </VerticalTimelineElement>
                   </Fade>
                 ))}
-                <VerticalTimelineElement
-                >
-
-                </VerticalTimelineElement>
               </VerticalTimeline>
             </Container>
           </div>
