@@ -86,7 +86,7 @@ function Gallery(props) {
 
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
                 {data.gallery?.slice(0, numberOfItems).map((gallery) => (
-                  <Fade key={gallery.title}>
+                  <Fade key={gallery.subTitle}>
                     <GalleryCard gallery={gallery} />
                   </Fade>
                 ))}
@@ -111,7 +111,7 @@ function Gallery(props) {
 }
 
 Gallery.propTypes = {
-  header: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default Gallery;

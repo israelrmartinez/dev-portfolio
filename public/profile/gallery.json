@@ -7,7 +7,10 @@
             "cardDetailedText": "CGPA - 9.5",
             "href": "https://drive.google.com/drive/folders/1CB6YX-tnbdDZPPgeLIosVBUNH5RUUfRe",
             "images" : [
-                "images/education/lorem-ipsum.png"
+                "images/gallery/steph/seph1.jpg",
+                "images/gallery/steph/seph2.jpg",
+                "images/gallery/steph/seph3.jpg",
+                "images/gallery/steph/seph4.jpg"
             ]
         },
         {
@@ -25,21 +28,30 @@
             "cardTitle": "B's Photoshoot",
             "cardSubtitle":"ABC School, City",
             "cardDetailedText": "Marks - 95%",
-            "href": ""
+            "href": "",
+            "images" : [
+                "images/education/lorem-ipsum.png"
+            ]
         },
         {
             "title": "",
             "cardTitle": "High School",
             "cardSubtitle":"ABC School, City",
             "cardDetailedText": "Marks - 95%",
-            "href": ""
+            "href": "",
+            "images" : [
+                "images/education/lorem-ipsum.png"
+            ]
         },
         {
             "title": "Apr 20XX",
             "cardTitle": "High School",
             "cardSubtitle":"ABC School, City",
             "cardDetailedText": "Marks - 95%",
-            "href": ""
+            "href": "",
+            "images" : [
+                "images/education/lorem-ipsum.png"
+            ]
         }
     ]
 }

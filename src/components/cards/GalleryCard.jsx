@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
-import { Button, Card, Col } from 'react-bootstrap';
+import { Button, Card, CarouselItem, Col } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
 import ImageGallery from 'react-image-gallery'
+import Carousel from 'react-bootstrap/Carousel';
 
 const styles = {
   badgeStyle: {
@@ -50,6 +51,19 @@ const GalleryCard = (props) => {
       >
         {/* <Card.Img variant="top" src={gallery?.image} /> */}
         {/* <ImageGallery items={gallery.images} /> */}
+        <Carousel>
+          {gallery.images.map((image) => {
+            <Carousel.Item>
+              <img src={image}/>
+              <Carousel.Caption>
+                heyy
+              </Carousel.Caption>
+            </Carousel.Item>
+          })}
+          {/* <Carousel.Item>
+            <h3>heyy</h3>
+          </Carousel.Item> */}
+        </Carousel>
         <Card.Body>
           <Card.Title style={styles.cardTitleStyle}>{gallery.title}</Card.Title>
           <Card.Text style={styles.cardTextStyle}>
@@ -76,6 +90,11 @@ const GalleryCard = (props) => {
               {link.text}
             </Button>
           ))} */}
+          {/* {gallery.images && (
+          <Carousel>
+            
+          </Carousel>
+        )} */}
         </Card.Body>
         {/* {project.tags && (
           <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
