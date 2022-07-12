@@ -1,18 +1,19 @@
 {
     "articles": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Music review: Florence + The Machine reaches for another level of boldness",
+            "subtitle": "'High as Hope' by Florence + The Machine Album Review",
+            "link": "https://www.yakimaherald.com/unleashed/reviews/music-review-florence-the-machine-reaches-for-another-level-of/article_0c925770-a7ee-11e8-a7da-4fde424ed238.html",
             "workDescription": [
-                "Integrated **2** new product.",
+                "High as Hope' by Florence + The Machine Album Review",
                 "Worked on adding **def** to **bcd**. Improved speed by 50%."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "Friday, August 24, 2018"
         },
         {
             "title": "Software Engineer",
             "subtitle": "XYZ Ltd",
+            "link": "https://www.yakimaherald.com/unleashed/reviews/music-review-florence-the-machine-reaches-for-another-level-of/article_0c925770-a7ee-11e8-a7da-4fde424ed238.html",
             "workType": "Internship",
             "workDescription": [
                 "Worked on abc."
@@ -22,6 +23,7 @@
         {
             "title": "App Developer",
             "subtitle": "ABC Pvt Ltd",
+            "link": "https://www.yakimaherald.com/unleashed/reviews/music-review-florence-the-machine-reaches-for-another-level-of/article_0c925770-a7ee-11e8-a7da-4fde424ed238.html",
             "workType": "Freelance",
             "workDescription": [
                 "Developed the official apps for the startup for both Android and iOS using hybrid framework.",

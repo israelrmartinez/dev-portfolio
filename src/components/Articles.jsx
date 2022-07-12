@@ -27,6 +27,7 @@ const styles = {
   },
   itemStyle: {
     marginBottom: 10,
+    'z-index': 0,
   },
 };
 
@@ -54,10 +55,11 @@ function Articles(props) {
             <Container>
               <Timeline
                 lineColor={theme.timelineLineColor}
+                animate={false}
               >
                 {data.map((item) => (
-                  <Fade>
-                    <TimelineItem
+                  <Fade className="fade" ssrFadeout>
+                    <TimelineItem className="timeline-item"
                       key={item.title + item.dateText}
                       dateText={item.dateText}
                       dateInnerStyle={{ background: theme.accentColor }}
@@ -68,9 +70,11 @@ function Articles(props) {
                         {item.title}
                       </h2>
                       <div style={styles.subtitleContainerStyle}>
+                      <a className="link" href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjNzbu-wfL4AhXeIzQIHXlHAzoQPAgI" target="_blank" rel="noreferrer">
                         <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
                           {item.subtitle}
                         </h4>
+                        </a>
                         {item.workType && (
                         <h5 style={styles.inlineChild}>
                     &nbsp;·
