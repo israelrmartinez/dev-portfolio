@@ -2,55 +2,398 @@
     "gallery":[
         {
             "title": "June 6, 2022",
-            "cardTitle": "Stephanie's Photoshoot",
+            "cardTitle": "Stephanie's graduation photoshoot",
             "cardSubtitle":"UW-Seattle",
-            "cardDetailedText": "CGPA - 9.5",
             "href": "https://drive.google.com/drive/folders/1CB6YX-tnbdDZPPgeLIosVBUNH5RUUfRe",
             "images" : [
-                "images/gallery/steph/seph1.jpg",
-                "images/gallery/steph/seph2.jpg",
-                "images/gallery/steph/seph3.jpg",
-                "images/gallery/steph/seph4.jpg"
+                "images/gallery/steph/steph1.jpg",
+                "images/gallery/steph/steph2.jpg",
+                "images/gallery/steph/steph3.jpg",
+                "images/gallery/steph/steph4.jpg"
             ]
         },
         {
             "title": "August 27, 2020",
-            "cardTitle": "Cece's Photoshoot",
+            "cardTitle": "Cece's summer pics",
             "cardSubtitle":"Yakima, WA",
-            "cardDetailedText": "CGPA - 9.5",
-            "href": "",
+            "href": "https://drive.google.com/drive/folders/1eqv6XOaItLN9ZoJ68VwEUrPSkcfd5NHb",
             "images" : [
-                "images/education/lorem-ipsum.png"
+                "images/gallery/cece/cece5.jpg",
+                "images/gallery/cece/cece6.jpg",
+                "images/gallery/cece/cece7.jpg",
+                "images/gallery/cece/cece8.jpg"
             ]
         },
         {
             "title": "September 19, 2018",
-            "cardTitle": "B's Photoshoot",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%",
-            "href": "",
+            "cardTitle": "B's senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/19tJoaWD_jck8paDUgWHFc9n7GgWal5Mg",
             "images" : [
-                "images/education/lorem-ipsum.png"
+                "images/gallery/b/b1.jpg",
+                "images/gallery/b/b2.jpg",
+                "images/gallery/b/b3.jpg",
+                "images/gallery/b/b4.jpg"
             ]
         },
         {
-            "title": "",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%",
-            "href": "",
+            "title": "September 14, 2018",
+            "cardTitle": "Fia's photoshoot",
+            "cardSubtitle":"Seattle, WA",
+            "href": "https://drive.google.com/drive/folders/1YyuwCFcHl5Ccej0SYsEJVx_YyhK4rGI0",
             "images" : [
-                "images/education/lorem-ipsum.png"
+                "images/gallery/fia/fia1.jpg",
+                "images/gallery/fia/fia2.jpg",
+                "images/gallery/fia/fia3.jpg",
+                "images/gallery/fia/fia4.jpg"
             ]
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%",
-            "href": "",
+            "title": "July 21, 2018",
+            "cardTitle": "Birthday party photoshoot",
+            "cardSubtitle":"Toppenish, WA",
+            "href": "https://drive.google.com/drive/folders/1-_xowXODEMbywMI09YghVlQbShtM9oHM",
             "images" : [
-                "images/education/lorem-ipsum.png"
+                "images/gallery/family-party/party1.jpg",
+                "images/gallery/family-party/party2.jpg",
+                "images/gallery/family-party/party3.jpg",
+                "images/gallery/family-party/party4.jpg"
+            ]
+        },
+        {
+            "title": "June 21, 2018",
+            "cardTitle": "Katherine's birthday pics",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/1yAkWLMl2Vn_WtpbMdxmLvBLQYRqkw1i9",
+            "images" : [
+                "images/gallery/katherine/katherine9.jpg",
+                "images/gallery/katherine/katherine10.jpg",
+                "images/gallery/katherine/katherine11.jpg",
+                "images/gallery/katherine/katherine12.jpg"
+            ]
+        },
+        {
+            "title": "June 2, 2018",
+            "cardTitle": "Estrella's senior photoshoot",
+            "cardSubtitle":"Wapato, WA",
+            "href": "https://drive.google.com/drive/folders/1Y6CLoDYva2S7UoxpPq1cHgPKlc9LlHVk",
+            "images" : [
+                "images/gallery/estrella/estrella1.jpg",
+                "images/gallery/estrella/estrella2.jpg",
+                "images/gallery/estrella/estrella3.jpg",
+                "images/gallery/estrella/estrella4.jpg"
+            ]
+        },
+        {
+            "title": "June 1, 2018",
+            "cardTitle": "Denny's 2nd senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "May 27, 2018",
+            "cardTitle": "Solymar's senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/1N4Ku69b3PLoA97SQbvY1ByLiuhyxnSaU",
+            "images" : [
+                "images/gallery/solymar/solymar1.jpg",
+                "images/gallery/solymar/solymar2.jpg",
+                "images/gallery/solymar/solymar3.jpg",
+                "images/gallery/solymar/solymar4.jpg"
+            ]
+        },
+        {
+            "title": "May 27, 2018",
+            "cardTitle": "Fatima's senior photoshoot",
+            "cardSubtitle":"Umtanum, WA",
+            "href": "https://drive.google.com/drive/folders/1m4sNy_LZ4kxIunnqxISWQm4A-L_GxGop",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "May 19, 2018",
+            "cardTitle": "Cece's senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/1_APdSlTSqag0VHzn0MeHUuvr8zViHGUi",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "May 19, 2018",
+            "cardTitle": "Joselin's 2nd senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/1WvJcKwCxchKBOxgd_9Xv_o1Gj8IUrQQ8",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "June 1, 2018",
+            "cardTitle": "Sergio's senior photoshoot",
+            "cardSubtitle":"Umtanum, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "April 14, 2018",
+            "cardTitle": "Johndhee's senior photoshoot",
+            "cardSubtitle":"Umtanum, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "March 17, 2018",
+            "cardTitle": "Karina's senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "January 13, 2018",
+            "cardTitle": "Marcella's senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "December 8, 2017",
+            "cardTitle": "Talent Show - unedited",
+            "cardSubtitle":"Wapato, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "November 19, 2017",
+            "cardTitle": "Kim's senior photoshoot",
+            "cardSubtitle":"Selah, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "November 11, 2017",
+            "cardTitle": "Denny's senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "November 11, 2017",
+            "cardTitle": "Yesica's senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "November 4, 2017",
+            "cardTitle": "Katherine's 2nd senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "October 29, 2017",
+            "cardTitle": "Melissa's senior photoshoot",
+            "cardSubtitle":"Mt. Rainier",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "October 29, 2017",
+            "cardTitle": "Joselin's senior photoshoot",
+            "cardSubtitle":"Mt. Rainier",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "October 28, 2017",
+            "cardTitle": "Chassity's senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "October 22, 2017",
+            "cardTitle": "Angela's senior photoshoot",
+            "cardSubtitle":"Quincy, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "August 18, 2017",
+            "cardTitle": "Katherine's senior photoshoot",
+            "cardSubtitle":"Quincy, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "July 16, 2017",
+            "cardTitle": "Katherine & Cece's summer pics",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "June 2, 2017",
+            "cardTitle": "Whale watching pics - unedited",
+            "cardSubtitle":"Edmonds, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "May 26, 2017",
+            "cardTitle": "Wapato fair pics",
+            "cardSubtitle":"Wapato, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "April 22, 2017",
+            "cardTitle": "Alyssa photoshoot collab",
+            "cardSubtitle":"Zillah, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "April 10, 2017",
+            "cardTitle": "LIGO field trip pics",
+            "cardSubtitle":"Richland, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "April 5, 2017",
+            "cardTitle": "Astrid's senior photoshoot",
+            "cardSubtitle":"Yakima, WA",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
+            ]
+        },
+        {
+            "title": "March 12, 2017",
+            "cardTitle": "The Grotto pics",
+            "cardSubtitle":"Portland, OR",
+            "href": "https://drive.google.com/drive/folders/17IAYFX_GqB86HyGo7SBBzFhFaY4w-ghd",
+            "images" : [
+                "images/gallery/dennys/dennys5.jpg",
+                "images/gallery/dennys/dennys6.jpg",
+                "images/gallery/dennys/dennys7.jpg",
+                "images/gallery/dennys/dennys8.jpg"
             ]
         }
     ]

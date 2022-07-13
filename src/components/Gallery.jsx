@@ -59,7 +59,7 @@ function Gallery(props) {
         <Fade>
           <div style={{ width }} className="section-content-container">
             <Container>
-              <Chrono
+              {/* <Chrono
                 allowDynamicUpdate
                 // useReadMore={true}
                 items={data.gallery}
@@ -82,8 +82,7 @@ function Gallery(props) {
                     />
                   ) : null))}
                 </div>
-              </Chrono>
-
+              </Chrono> */}
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
                 {data.gallery?.slice(0, numberOfItems).map((gallery) => (
                   <Fade key={gallery.subTitle}>

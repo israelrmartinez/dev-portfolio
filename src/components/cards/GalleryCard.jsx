@@ -28,6 +28,10 @@ const styles = {
     textDecoration: 'none',
     padding: 10,
   },
+  imageStyle: {
+    width: "100%",
+    height: "100%",
+  },
   buttonStyle: {
     margin: 5,
   },
@@ -51,23 +55,22 @@ const GalleryCard = (props) => {
       >
         {/* <Card.Img variant="top" src={gallery?.image} /> */}
         {/* <ImageGallery items={gallery.images} /> */}
-        <Carousel>
-          {gallery.images.map((image) => {
-            <Carousel.Item>
-              <img src={image}/>
-              <Carousel.Caption>
-                heyy
-              </Carousel.Caption>
-            </Carousel.Item>
-          })}
-          {/* <Carousel.Item>
-            <h3>heyy</h3>
-          </Carousel.Item> */}
-        </Carousel>
+        <Card.Body>
+          <Carousel fade interval={null}>
+            {gallery.images.map((image) => 
+              (<Carousel.Item>
+                <img src={image} style={styles.imageStyle}/>
+                <Carousel.Caption>
+                  {gallery.cardSubtitle}
+                </Carousel.Caption>
+              </Carousel.Item>)
+            )}
+          </Carousel>
+        </Card.Body>
         <Card.Body>
           <Card.Title style={styles.cardTitleStyle}>{gallery.title}</Card.Title>
           <Card.Text style={styles.cardTextStyle}>
-            {parseBodyText(gallery.cardSubtitle)}
+            {parseBodyText(gallery.cardTitle)}
           </Card.Text>
           <Button
             key={gallery.href}
@@ -75,26 +78,8 @@ const GalleryCard = (props) => {
             variant={'outline-' + theme.bsSecondaryVariant}
             onClick={() => window.open(gallery.href, '_blank')}
           >
-            View more
+            Collection
           </Button>
-        </Card.Body>
-
-        <Card.Body>
-          {/* {gallery?.links?.map((link) => (
-            <Button
-              key={link.href}
-              style={styles.buttonStyle}
-              variant={'outline-' + theme.bsSecondaryVariant}
-              onClick={() => window.open(link.href, '_blank')}
-            >
-              {link.text}
-            </Button>
-          ))} */}
-          {/* {gallery.images && (
-          <Carousel>
-            
-          </Carousel>
-        )} */}
         </Card.Body>
         {/* {project.tags && (
           <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
