@@ -1,6 +1,7 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
+  "homepage": "https://ismartinez.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -45,7 +46,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
   }
 }
