@@ -114,12 +114,14 @@
             "cardSubtitle":"Umtanum, WA",
             "href": "https://drive.google.com/drive/folders/1m4sNy_LZ4kxIunnqxISWQm4A-L_GxGop",
             "images" : [
-                "images/gallery/dennys/dennys5.jpg",
-                "images/gallery/dennys/dennys6.jpg",
-                "images/gallery/dennys/dennys7.jpg",
-                "images/gallery/dennys/dennys8.jpg"
+                "images/gallery/fatima/fatima1.jpg",
+                "images/gallery/fatima/fatima2.jpg",
+                "images/gallery/fatima/fatima3.jpg",
+                "images/gallery/fatima/fatima4.jpg"
             ]
-        },
+        }
+    ],
+    "save":[
         {
             "title": "May 19, 2018",
             "cardTitle": "Cece's senior photoshoot",
