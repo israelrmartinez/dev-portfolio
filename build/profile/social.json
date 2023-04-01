@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/israelrmartinez/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/israelrmartinez"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:israel.r.mar@gmail.com"
+        }
+    ]
+}
