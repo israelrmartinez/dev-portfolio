@@ -44,6 +44,22 @@
             ]
         },
         {
+            "title": "Software Systems Analysis",
+            "bodyText": "*Winter 2022*\n\n- Worked with 3 students to analyze an existing large-size software system, which we chose the FirebaseUI Web software.\n - In our report, we documented the system's architecture from multiple viewpoints, identified styles and patterns used, and assessed the architectural quality and areas of improvement in regard to design principles.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/info443-wi22/project-2-CocoaCommander"
+                }
+            ],
+            "tags" : [
+                "Systems Analysis",
+                "Software Architecture",
+                "Design Patterns",
+                "Refactoring"
+            ]
+        },
+        {
             "image" : "images/projects/food-cycle.jpg",
             "title": "Food Cycle -  Food waste prevention app",
             "bodyText": "*Fall 2021*\n\n- Worked with a team of 5. Created a web app that helps users waste less food with a range of options.\n - Used mockups and style guides, prototypes, specifications, wireframes, research, usability testing and consumer feedback.\n - Gave a presentation to advocate for the UN's Sustainability Development Goals and our brand design rationale.",
@@ -157,22 +173,6 @@
                 "Python",
                 "Tableau",
                 "Jupyter"
-            ]
-        },
-        {
-            "title": "Software Systems Analysis",
-            "bodyText": "*Winter 2022*\n\n- Worked with 3 students to analyze an existing large-size software system, which we chose the FirebaseUI Web software.\n - In our report, we documented the system's architecture from multiple viewpoints, identified styles and patterns used, and assessed the architectural quality and areas of improvement in regard to design principles.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/info443-wi22/project-2-CocoaCommander"
-                }
-            ],
-            "tags" : [
-                "Systems Analysis",
-                "Software Architecture",
-                "Design Patterns",
-                "Refactoring"
             ]
         },
         {
