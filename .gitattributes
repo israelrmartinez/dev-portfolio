@@ -1,3 +1,5 @@
+build/index.zip filter=lfs diff=lfs merge=lfs -text
+index.zip filter=lfs diff=lfs merge=lfs -text
 *.zip[[:space:]]*.jpg[[:space:]]*.JPG[[:space:]]*map[[:space:]]*map filter=lfs diff=lfs merge=lfs -text
 *.map filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
