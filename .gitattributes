@@ -1,5 +1,0 @@
-*.zip[[:space:]]*.jpg[[:space:]]*.JPG[[:space:]]*map[[:space:]]*map filter=lfs diff=lfs merge=lfs -text
-*.map filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.JPG filter=lfs diff=lfs merge=lfs -text
