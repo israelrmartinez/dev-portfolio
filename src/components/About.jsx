@@ -9,7 +9,7 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   introTextContainer: {
-    margin: 10,
+    margin: "8%",
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',

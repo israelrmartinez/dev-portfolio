@@ -31,8 +31,9 @@ const styles = {
     marginBottom: 10,
   },
   imageStyle: {
-    width: "100%",
-    height: "100%",
+    maxWidth: "100%",
+    minWidth: "200px",
+    height: "auto",
   },
 };
 
