@@ -20,6 +20,17 @@ jobs:
         with:
           node-version: 16
 
+      # Docs:
+      # https://docs.github.com/en/actions/guides/caching-dependencies-to-speed-up-workflows
+      # https://github.com/actions/cache/blob/main/examples.md#node---npm
+      - name: Cache (NPM)
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
       - name: Install Dependencies
         run: |
           npm install
