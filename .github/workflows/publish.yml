@@ -20,17 +20,15 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install Dependencies and Build React App
+      - name: Install Dependencies
         run: |
-          pwd
-          ls -la
-          npm ci
-          npm run-script build:qa
+          npm install
+          git diff --exit-code
 
-      # - name: Build
-      #   run: npm run build --prefix client # The build command of your project
-      #   env:
-      #     CI: false
+      - name: Build
+        run: npm run build #--prefix client # The build command of your project
+        env:
+          CI: false
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
