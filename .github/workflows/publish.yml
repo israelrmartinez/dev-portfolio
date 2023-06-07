@@ -16,25 +16,21 @@ jobs:
           persist-credentials: false
           
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
-      - name: Cache dependencies
-        id: cache
-        uses: actions/cache@v3
-        with:
-          path: ./node_modules
-          key: modules-${{ hashFiles('package-lock.json') }}
+      - name: Install Dependencies and Build React App
+        run: |
+          pwd
+          ls -la
+          npm ci
+          npm run-script build:qa
 
-      - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: npm ci --ignore-scripts
-
-      - name: Build
-        run: npm run build --prefix client # The build command of your project
-        env:
-          CI: false
+      # - name: Build
+      #   run: npm run build --prefix client # The build command of your project
+      #   env:
+      #     CI: false
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
