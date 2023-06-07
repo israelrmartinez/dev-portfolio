@@ -11,16 +11,18 @@ jobs:
     name: Build and Push
     steps:
       - name: git-checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:  
+          persist-credentials: false
 
       - name: Install all dependencies
         uses: actions/setup-node@v1
         with:
           node-version: 16
-      - run: npm install -g npm-check -y -s --debug
+      - run: npm install install
 
       - name: Build
-        run: npm run build # The build command of your project
+        run: npm run build --prefix client # The build command of your project
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
