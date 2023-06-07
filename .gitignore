@@ -11,6 +11,8 @@ package-lock.json
 
 # production
 /build
+/.github
+.gitattributes
 
 # misc
 .DS_Store
